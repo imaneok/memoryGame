@@ -100,10 +100,21 @@ h1 {
 }
 
 /*
+ * Styles for the Time Panel
+ */
+
+.timer {
+    position: absolute;
+    top: 0;
+    left: -150px;
+}
+
+/*
  * Styles for the Score Panel
  */
 
 .score-panel {
+    position: relative;
     text-align: left;
     width: 345px;
     margin-bottom: 10px;
